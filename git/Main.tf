@@ -1,11 +1,12 @@
 terraform {
-  cloud {
+ /* cloud {
     organization = "Ethereal_tutorial"
 
     workspaces {
       name = "terra"
     }
-  }  
+  }
+*/  
 required_providers {
     aws = {
       source  = "hashicorp/aws"
