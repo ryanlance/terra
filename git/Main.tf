@@ -1,12 +1,11 @@
 terraform {
- /* cloud {
+cloud {
     organization = "Ethereal_tutorial"
 
     workspaces {
       name = "terra"
     }
-  }
-*/  
+  }  
 required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -26,6 +25,6 @@ resource "aws_instance" "fapp_server22" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "VersionControledAppServerInstance"
+    Name = "VersionControledAppServerInstance08125"
   }
 }
