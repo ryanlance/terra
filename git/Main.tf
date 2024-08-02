@@ -25,6 +25,6 @@ resource "aws_instance" "fapp_server22" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "VersionControledAppServerInstance08125"
+    Name = "VersionControledAppServerInstance08126"
   }
 }
