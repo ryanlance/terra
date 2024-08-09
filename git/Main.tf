@@ -25,6 +25,6 @@ resource "aws_instance" "log_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "OrderIntake_App1.080924"
+    Name = "OrderIntake_App1.080925"
   }
 }
